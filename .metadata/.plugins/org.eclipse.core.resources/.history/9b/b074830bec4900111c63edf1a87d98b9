@@ -1,0 +1,13 @@
+package dkte.com;
+
+public class Main3 {
+
+	public static void main(String[] args) {
+		// Casting
+		double price = 100.00;
+		double finalprice = 10 + price;
+		System.out.println(finalprice);
+
+	}
+
+}

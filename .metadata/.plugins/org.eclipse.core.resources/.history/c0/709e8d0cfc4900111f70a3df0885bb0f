@@ -1,0 +1,32 @@
+package dkte.com;
+
+import java.util.Scanner;
+
+public class Input {
+
+	public static void main(String[] args) {
+		// How to take input
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Input your age:");
+		int age = sc.nextInt();
+		System.out.println(age);
+		
+		//for float value
+		System.out.println("Input your age:");
+		float age1 = sc.nextFloat();
+		System.out.println(age1);
+		
+		//for string
+		System.out.println("Input your name:");
+		String name = sc.next();//take only single word input.
+		System.out.println(name);
+		
+		//for taking complete line as input 
+		System.out.println("Input your full name:");
+		String name1 = sc.nextLine();
+		System.out.println(name1);
+		
+
+	}
+
+}

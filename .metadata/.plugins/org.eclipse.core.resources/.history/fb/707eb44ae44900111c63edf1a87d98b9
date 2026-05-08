@@ -1,0 +1,12 @@
+package dkte.com;
+
+public class String {
+	public static void main(String[] args) {
+		//String 
+		//concatenate
+		String name1 = "Teju";
+		String name2 = "Trushna";
+		
+	}
+
+}

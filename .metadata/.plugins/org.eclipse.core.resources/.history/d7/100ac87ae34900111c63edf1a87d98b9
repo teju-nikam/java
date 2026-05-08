@@ -1,0 +1,40 @@
+package com.example;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// our first program
+			System.out.println("Hello Java");
+			
+		//Variables
+			String name = "Aman";
+			String neighbour = "Appu";
+			int age = 30;
+			//String Friend = "Appu"; So appu is repeated name so instead of writhing this we can write as below
+			String friend = neighbour ;
+			
+		//Java types
+			//Primitive
+			byte age1 = 25;
+			int phone = 1234567890 ;
+			long phone2 = 12345678901L ;
+			float pi = 3.14F;
+			char letter = 'a';
+			boolean isAdult = true;
+			
+			//non primitive
+			String name1 = "Alia";
+			System.out.println(name.length());
+			// by using new keyword
+			String name2 = new String("Ahaan");
+			String name3 = new String("Akshay");
+			
+			
+			
+			
+			
+			
+
+	}
+
+}

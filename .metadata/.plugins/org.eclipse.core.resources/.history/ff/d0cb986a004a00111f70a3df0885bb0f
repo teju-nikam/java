@@ -1,0 +1,100 @@
+package dkte.com;
+
+import java.util.Scanner;
+
+public class Operators {
+
+	public static void main(String[] args) {
+		// operators: Used to perform specific task
+		//Arithmatic operators
+		int a = 1;
+		int b = 2;
+		int sum = a + b ;
+		int diff = a-b;
+		int mult = a*b;
+		int div = a/b;
+		int mod = a%b;
+		System.out.println(sum);
+		System.out.println(diff);
+		System.out.println(mult);
+		System.out.println(div);
+		System.out.println(mod);
+		
+		//Assignment operators
+		int numb = 1;
+		numb = numb++;//(++(increment) is a unary operator) 
+		System.out.println(numb);
+		System.out.println(numb++);
+		System.out.println(numb);
+		System.out.println(++numb);
+		System.out.println(numb);
+		
+		//decrement operator(--)
+		int numb1 = 2;
+		System.out.println(numb1--);
+		System.out.println(numb1);
+		System.out.println(--numb1);
+		System.out.println(numb1);
+		
+		//Math class
+		//.max()(function of math class)
+		System.out.println(Math.max(5,6));
+		System.out.println(Math.min(5, 6));
+		//random() : generate any random number between 0 to 1
+		System.out.println(Math.random());//print in long form
+		//for generating random value into int form do explicit casting
+		System.out.println((int)(Math.random()*100));//we multiply 100 because if we are not multiplying then the answer is always 0.
+		
+		//Comparison operators
+		//a==b
+		//a!=b
+		//a<b
+		//a>b
+		//a<=b
+		//a>=b
+		
+		//logical operators
+		//1)&& (if both conditions are true then only return output as true)
+		int c = 30;
+		int d = 40;
+		if(c>20 && d>20)
+			System.out.println("Both less than 20");
+		
+		//logical or(||)(checks one statement is true
+		if(c<35 || d<35)
+			System.out.println("At least one less than 35");
+		
+		//!(Negation)
+		boolean isAdult = false;
+		if(!isAdult)//isAdult is false but negation makes it true so first statment in displayed
+			System.out.println("is adult");
+		else
+			System.out.println("not adult");
+		
+		
+		//for example
+		Scanner sc = new Scanner(System.in);
+		int cash = sc.nextInt();//pen = 10 book = 40
+		if(cash>10) {
+			System.out.println("Cannot buy anything");
+			System.out.println("You need more cash");
+		}
+		else if(cash>10 && cash<40) {
+			System.out.println("You can buy one thing");
+			
+		}
+		else {
+			System.out.println("You can get both");
+		}
+		
+
+			
+		
+		
+		
+		
+		
+
+	}
+
+}

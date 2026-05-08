@@ -1,0 +1,18 @@
+package dkte.com;
+
+public class Main {
+	public static void main(String[] args) {
+		//String
+		String name1 = "Teju";
+		String name2 = "Trushna";
+		String name3 = name1 + name2 ;
+		String name4 = name1 + "and" +name2;
+		System.out.println(name3); //string concatenation
+		System.out.println(name4);
+		
+		//understand character position
+		System.out.println(name1.charAt(0));
+		}
+	
+
+}
